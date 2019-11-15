@@ -37,6 +37,9 @@ function typeExecution() {
     basicOperations();
 
     num1 = result;
+    num2 = '';
+    document.getElementById("display").innerText = result;
+
 
 }
 function basicOperations(){
